@@ -1,0 +1,40 @@
+/*gerais*/
+body{font-family:Verdana, Arial, Helvetica, sans-serif}
+body .clear{clear:both}
+body .block{display:block}
+body .none{display:none}
+body .left{float:left}
+
+/*home*/
+.index-page{background:url(../img/bg_inicio.png) scroll center top no-repeat;text-align:center}
+.index-page .content-header{text-align:center;background:none}
+
+.index-page #form-estado{width:240px; float:none; margin:20px auto 55px}
+#form-estado label{color:#008d8e;font-size:18px;font-weight:bold}
+.index-page #form-estado .ui-select{margin-top:38px; width:auto}
+
+.index-page .ui-footer{height:27px;background:url(../img/bg_footer_bar.png) scroll repeat-x bottom left}
+.index-page .ui-footer span{padding:0}
+
+/*header*/
+.content-header{background:url(../img/bg_topo.png) scroll top left repeat-x}
+.ui-content{padding:0}
+.logo{float:left; margin:4px 0 2px 12px}
+
+/*form*/
+#form-estado{float:right}
+.ui-select{width:87px;}
+
+.box-data{width:320px; height:23px; padding:0 0 0 10px; color:#6d770d; margin:0 auto; background: url(../img/bg_box_data.png) scroll no-repeat top left}
+.box-data p{margin:0; line-height:22px}
+.banner{width:299px; margin:7px auto}
+
+/*nav*/
+#nav{width:320px; height:34px; padding:0; margin:0 auto 8px}
+#nav li{list-style:none; margin-right:2px; height:34px; line-height:34px; vertical-align:middle; background:url(../img/bg_mn_off.png) scroll repeat-x top left}
+#nav .ativo{background:url(../img/bg_mn_on.png) scroll repeat-x top left}
+#nav a{color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; text-decoration:none}
+#nav a:hover{text-decoration:underline}
+#nav #bt-home a{padding:0 33px}
+#nav #bt-canais a{padding:0 25px}
+#nav #bt-favoritos a{padding:0 12px; margin-right:0}
