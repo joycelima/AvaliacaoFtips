@@ -38,4 +38,10 @@ body .left{float:left}
 #nav a:hover{text-decoration:underline}
 #nav #bt-home a{padding:0 33px}
 #nav #bt-canais a{padding:0 25px}
-#nav #bt-favoritos a{padding:0 12px; margin-right:0}
+#nav #bt-favoritos a{padding:0 12px}
+#nav #bt-favoritos{margin-right:0}
+
+/*content*/
+/*navbar*/
+.ui-block-a a{width:82px; height:22px; background:url(../img/aba_busca_on.png) no-repeat top left}
+.ui-block-a a.ui-btn-active{background:url(../img/aba_busca_off.png) no-repeat top left}
