@@ -32,7 +32,7 @@ body .left{float:left}
 
 /*nav*/
 #nav{width:320px; height:34px; padding:0; margin:0 auto 8px}
-#nav li{list-style:none; margin-right:2px; height:34px; line-height:34px; vertical-align:middle; background:url(../img/bg_mn_off.png) scroll repeat-x top left}
+#nav li{list-style:none; margin-right:1px; height:34px; line-height:34px; vertical-align:middle; background:url(../img/bg_mn_off.png) scroll repeat-x top left}
 #nav .ativo{background:url(../img/bg_mn_on.png) scroll repeat-x top left}
 #nav a{color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; text-decoration:none}
 #nav a:hover{text-decoration:underline}
@@ -43,5 +43,10 @@ body .left{float:left}
 
 /*content*/
 /*navbar*/
-.ui-block-a a{width:82px; height:22px; background:url(../img/aba_busca_on.png) no-repeat top left}
+.ui-grid-a{width: 260px;}
+.ui-grid-a a{height:22px;border: none;text-indent: -5555px; }
+.ui-block-a li{width:82px;}
+.ui-block-a a{background:url(../img/aba_busca_on.png) no-repeat top left;}
 .ui-block-a a.ui-btn-active{background:url(../img/aba_busca_off.png) no-repeat top left}
+.ui-block-b li{width:121px;}
+.ui-block-b a{background:url(../img/aba_maisbuscados_off.png) no-repeat top left;}
